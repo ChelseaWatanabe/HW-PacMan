@@ -57,7 +57,7 @@ exercise.checkWallCollision = function() {
     // reset the direction of motion if wall is hit
     // you need to take into account image width
 
-    if(exercise.pos.x + exercise.img1.width > 800){
+    if(exercise.pos.x - exercise.img1.width > 800){
         //make increment negative
         exercise.increment -= 2 * exercise.increment;
     }
